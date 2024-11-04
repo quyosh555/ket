@@ -13,7 +13,6 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 
 export function LandingPageComponent() {
-  const [activeServiceSlide, setActiveServiceSlide] = useState(0)
   const [activeReview, setActiveReview] = useState(0)
   const [activeDoctorSlide, setActiveDoctorSlide] = useState(0)
   const [showAppointmentDialog, setShowAppointmentDialog] = useState(false)
@@ -307,7 +306,7 @@ export function LandingPageComponent() {
                     Круглосуточная клиника в Ташкенте
                   </h1>
                   <p className="max-w-[600px] text-gray-500 md:text-lg lg:text-xl">
-                    Клиника "Yangi Hayot" в Ташкенте предоставляет круглосуточные медицинские услуги. Опытные врачи готовы помочь в любое время, обеспечивая качественный уход и комфорт для вашего здоровья.
+                    Клиника Yangi Hayot в Ташкенте предоставляет круглосуточные медицинские услуги. Опытные врачи готовы помочь в любое время, обеспечивая качественный уход и комфорт для вашего здоровья.
                   </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -413,10 +412,10 @@ export function LandingPageComponent() {
               <div className="w-full lg:w-1/2 flex flex-col justify-center space-y-4 mt-8 lg:mt-0">
                 <div className="space-y-2">
                   <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">
-                    О клинике "Yangi Hayot"
+                    О клинике Yangi Hayot
                   </h2>
                   <p className="text-gray-500">
-                    "Yangi Hayot" — это круглосуточная клиника в Ташкенте, где опытные специалисты готовы оказать квалифицированную помощь в любое время. Мы предоставляем широкий спектр медицинских услуг: диагностику, лечение и реабилитацию в комфортных условиях.
+                    Yangi Hayot — это круглосуточная клиника в Ташкенте, где опытные специалисты готовы оказать квалифицированную помощь в любое время. Мы предоставляем широкий спектр медицинских услуг: диагностику, лечение и реабилитацию в комфортных условиях.
                   </p>
                   <div className="mt-4">
                     <h3 className="text-xl font-semibold mb-2">Преимущества нашей клиники:</h3>
@@ -428,7 +427,7 @@ export function LandingPageComponent() {
                     </ul>
                   </div>
                   <p className="mt-4 text-gray-500">
-                    Клиника "Yangi Hayot" — надёжная медицинская помощь рядом, когда она вам нужна.
+                    Клиника Yangi Hayot — надёжная медицинская помощь рядом, когда она вам нужна.
                   </p>
                 </div>
                 <Button className="w-fit" style={{ backgroundColor: "#0066FF", color: "white" }}>
